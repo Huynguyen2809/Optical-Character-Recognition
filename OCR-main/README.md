@@ -12,7 +12,7 @@
 
 **Bước 1:** Clone kho chứa này về máy:
 ```bash
-git clone [https://github.com/hynanhat/OCR.git](https://github.com/hynanhat/OCR.git)
+git clone [https://github.com/Huynguyen2809/Optical-Character-Recognition.git]
 cd OCR
 
 Bước 2: Cài đặt các thư viện cần thiết:
@@ -21,8 +21,9 @@ pip install -r requirements.txt
 
 Hướng Dẫn Sử Dụng
 
-Cách 1: Chạy Giao diện Web (Khuyên dùng)
-Sử dụng lệnh sau để khởi động trang web trên trình duyệt:
+Bước 1: Tạo môi trường ảo:
+python -m venv venv
+venv\Scripts\activate
 
+Bước 2: Sử dụng lệnh sau để khởi động trang web trên trình duyệt:
 streamlit run app.py
-
