@@ -1,0 +1,12 @@
+
+
+torch
+torchvision
+numpy
+
+
+Pillow
+lmdb
+
+
+streamlit

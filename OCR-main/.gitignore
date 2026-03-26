@@ -1,0 +1,15 @@
+# Các file rác hệ thống
+.DS_Store
+*.pyc
+*.pyo
+*.log
+*.tmp
+__pycache__/
+
+# Bỏ qua môi trường ảo và dữ liệu nặng
+venv/
+data/
+
+# Bỏ qua lịch sử huấn luyện, CHỈ GIỮ LẠI file mô hình tốt nhất
+expr/*
+!expr/netCRNN_24_3000.pth
